@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Landing</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+      integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-brand">
+        <img src="/images/letter-b.png" id="brand-logo" />
+        <h1 id="brand-name">Brand Name</h1>
+      </div>
+      <nav class="navigation">
+        <ul class="nav">
+          <li class="nav-item">
+            <button class="nav-link active" data-target="#landing">Home</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-target="#features">Features</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-target="#reviews">Reviews</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-target="#download">Download</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="full" id="landing">
+      <img
+        src="/images/landing-mobile.png"
+        alt="mobile app screen"
+        id="landing-img"
+        hidden
+      />
+      <div class="landing-text">
+        <h1>Your app here</h1>
+        <h2>Placerat orci nulla pellentesque dignissim enim</h2>
+        <h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </h4>
+        <div class="landing-btns">
+          <input
+            class="download-btn"
+            type="image"
+            src="/images/google-play-badge.png"
+            alt=""
+          />
+          <input
+            class="download-btn"
+            type="image"
+            src="/images/app-store-badge.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="full" id="features">
+      <h2 class="section-title">Features</h2>
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <img
+              src="/images/colour.png"
+              alt="features logo 1"
+              class="features-icon"
+            />
+            <div>
+              <h3>Feature 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet
+                porttitor eget dolor morbi non arcu risus quis varius.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/images/money.png"
+              alt="features logo 1"
+              class="features-icon"
+            />
+            <div>
+              <h3>Feature 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Nullam vehicula ipsum a arcu cursus.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/images/quick.png"
+              alt="features logo 1"
+              class="features-icon"
+            />
+            <div>
+              <h3>Feature 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. In
+                arcu cursus euismod quis viverra nibh cras pulvinar.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/images/worldwide.png"
+              alt="features logo 1"
+              class="features-icon"
+            />
+            <div>
+              <h3>Feature 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+                egestas quis ipsum suspendisse ultrices gravida dictum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-images">
+          <img
+            rel="preload"
+            src="images/feat-1.jpg"
+            srcset=""
+            alt="feature image 1"
+            class="feat-img"
+          />
+          <img
+            rel="preload"
+            src="images/feat-2.jpg"
+            alt="feature image 2"
+            class="feat-img"
+          />
+          <img
+            rel="preload"
+            src="images/feat-3.jpg"
+            alt="feature image 3"
+            class="feat-img"
+          />
+          <img
+            rel="preload"
+            src="/images/feat-4.jpg"
+            alt="feature image 4"
+            class="feat-img"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="full" id="reviews">
+      <h3 class="section-title">Reviews</h3>
+      <div class="container">
+        <div class="review"></div>
+      </div>
+    </div>
+    <div class="full">
+      <img src="images/user.png" alt="" />
+    </div>
+  </body>
+</html>
