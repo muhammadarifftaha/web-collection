@@ -22,11 +22,6 @@ section {
   align-items: center;
 }
 
-section::after {
-  height: 4em !important;
-  background: green;
-}
-
 .navbar {
   display: flex;
   justify-content: space-around;
